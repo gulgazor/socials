@@ -1,20 +1,38 @@
-.container {
-	justify-content: center;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-	height: 100vh;
-}
-
-.image {
-  	width: 62.5px;
-  	height: 62.5px;
-  	margin: 3px;
-	transform: scale(1.0);
-  	transition: transform 0.5s, margin 0.5s;
-}
-
-.image:hover {
-  transform: scale(1.5);
-	margin: 20px;
-}
+body {
+	background-color: black;
+	animation: pulsate 10s ease-out infinite;
+  }
+  
+  @keyframes pulsate {
+	0% {
+	  background-color: black;
+	}
+	50% {
+	  background-color: white;
+	}
+	100% {
+	  background-color: black;
+	}
+  }
+  
+  .container {
+	  justify-content: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  height: 100vh;
+  }
+  
+  .image {
+		width: 62.5px;
+		height: 62.5px;
+		margin: 3px;
+	  transform: scale(1.0);
+		transition: transform 0.5s, margin 0.5s;
+  }
+  
+  .image:hover {
+	transform: scale(1.5);
+	  margin: 20px;
+  }
+  
