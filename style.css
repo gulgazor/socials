@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	animation: pulsate 10s ease-out infinite;
+	animation: pulsate 15s ease-out infinite;
   }
   
   @keyframes pulsate {
@@ -8,7 +8,7 @@ body {
 	  background-color: black;
 	}
 	50% {
-	  background-color: white;
+	  background-color: #333333;
 	}
 	100% {
 	  background-color: black;
